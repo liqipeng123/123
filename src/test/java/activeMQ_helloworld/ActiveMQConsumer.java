@@ -39,6 +39,7 @@ public class ActiveMQConsumer {
 			TextMessage message = (TextMessage) messageConsumer.receive(10000);
 			if (message != null) {
 				System.out.println(message.getText());
+				System.out.println("hot_fix ∑÷÷ß");
 			} else {
 				break;
 			}
